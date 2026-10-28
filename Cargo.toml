@@ -1,0 +1,10 @@
+[package]
+name = "dreamcraft"
+version = "0.1.0"
+edition = "2021"
+description = "DreamCraft — an open-source, Dreamweaver-style visual web editor in Rust, built with egui"
+license = "MIT"
+
+[dependencies]
+eframe = "0.29"
+egui = "0.29"
