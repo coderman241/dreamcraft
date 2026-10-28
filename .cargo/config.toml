@@ -1,0 +1,5 @@
+# Cross-compile from Linux to Windows (GNU target) with MinGW.
+# This only applies to the windows-gnu target, so native Windows MSVC
+# builds and native Linux builds are unaffected.
+[target.x86_64-pc-windows-gnu]
+linker = "x86_64-w64-mingw32-gcc"
